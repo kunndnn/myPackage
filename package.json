@@ -1,0 +1,23 @@
+{
+  "name": "rawfx",
+  "version": "1.0.0",
+  "description": "Reusable utilities",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^4.45.3"
+  },
+  "author": "Kundan",
+  "license": "MIT"
+}
