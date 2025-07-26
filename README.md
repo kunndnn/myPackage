@@ -52,4 +52,3 @@ All functions include type checking and will throw errors for invalid inputs:
 ## License
 
 MIT
-# myPackage
